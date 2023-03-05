@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="100dp"
+        tools:context=".MainActivity">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="1dp"
+            tools:layout_editor_absoluteX="1dp">
+
+        <TextView
+                android:id="@+id/tvCelsius"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:text="Celsius"
+                android:textSize="20dp">
+
+        </TextView>
+
+        <EditText
+                android:id="@+id/edtCelsius"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/tvCelsius"
+                android:textSize="20dp">
+
+        </EditText>
+
+        <TextView
+                android:id="@+id/tvFahrenheit"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/edtCelsius"
+                android:text="Fahrenheit"
+                android:textSize="20dp">
+
+        </TextView>
+
+        <EditText
+                android:id="@+id/edtFahrenheit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tvFahrenheit"
+                android:textSize="20dp">
+
+        </EditText>
+
+
+
+        <Button
+                android:id="@+id/btnChange"
+                android:text="Change"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtFahrenheit"
+                android:layout_centerInParent="true"
+                android:gravity="center">
+
+        </Button>
+
+        <View
+                android:id="@+id/ViewCenter"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/btnChange">
+
+        </View>
+
+
+        <TextView
+                android:id="@+id/tvFahrenheit1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/ViewCenter"
+                android:text="Fahrenheit"
+                android:textSize="20dp">
+
+        </TextView>
+
+        <EditText
+                android:id="@+id/edtFahrenheit1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tvFahrenheit1"
+                android:textSize="20dp">
+
+        </EditText>
+
+
+        <TextView
+                android:id="@+id/tvCelsius1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/edtFahrenheit1"
+                android:text="Celsius"
+                android:textSize="20dp">
+
+        </TextView>
+
+        <EditText
+                android:id="@+id/edtCelsius1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tvCelsius1"
+                android:textSize="20dp">
+
+        </EditText>
+
+
+        <Button
+                android:id="@+id/btnChange1"
+                android:text="Change"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtCelsius1"
+                android:layout_centerInParent="true"
+                android:gravity="center">
+
+        </Button>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
