@@ -7,7 +7,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="100dp"
+        android:padding="50dp"
         tools:context=".MainActivity">
     <RelativeLayout
             android:layout_width="match_parent"
@@ -28,7 +28,7 @@
         <EditText
                 android:id="@+id/edtCelsius"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="45dp"
                 android:layout_below="@+id/tvCelsius"
                 android:textSize="20dp">
 
@@ -47,7 +47,7 @@
         <EditText
                 android:id="@+id/edtFahrenheit"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="45dp"
                 android:layout_below="@+id/tvFahrenheit"
                 android:textSize="20dp">
 
@@ -88,7 +88,7 @@
         <EditText
                 android:id="@+id/edtFahrenheit1"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="45dp"
                 android:layout_below="@+id/tvFahrenheit1"
                 android:textSize="20dp">
 
@@ -109,7 +109,7 @@
         <EditText
                 android:id="@+id/edtCelsius1"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="45dp"
                 android:layout_below="@+id/tvCelsius1"
                 android:textSize="20dp">
 
